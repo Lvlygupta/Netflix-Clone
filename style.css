@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+nav{
+    display: flex;
+    width: 80vw;
+    height: 8vh;
+    align-items: center;
+    padding: 25px;
+    font-size: xx-large;
+    font-weight: 800;
+    color: rgb(255, 4, 4);
+    margin: auto;
+    justify-content: space-between;
+    z-index: 10;
+    position: relative;
+}
+#nav-logo{
+    border-bottom: 3px;
+    font-size: xxx-large;
+}
+.container{
+    height: 100vh;
+    background-image: url("./assets/images/bg.jpg");
+   position: relative;
+   overflow: hidden;
+}
+.black-sheet{
+    height:100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 0%;
+}
+.box{
+    position: relative;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", "Roboto", "Ubuntu", sans-serif;
+}
+
+    .box h1{
+        font-weight: 900;
+        font-size: 48px;
+    }
+    #para1{
+        font-weight: 400;
+        font-size: 24px;
+    }
+    #para2{
+        font-weight: 400;
+        font-size: 20px;
+    }
+.btn {
+    font-family: sans-serif;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    margin: 10px 15px;
+}
+.btn1{
+    background-color: rgba(103, 99, 99,0.4);
+    color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding:10px 30px;
+}
+.btn2{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding:10px 20px;
+}
+.seperater{
+    background-color: rgb(61, 61, 61);
+    height: 7px;
+    border:none;
+}
+.segments{
+    display: flex;
+    margin: auto;
+    width: 75vw;
+}
+.segments h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+.segments p{
+    font-size: 24px;
+    font-weight: 400;
+}
+.content{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    gap:10px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", "Roboto", "Ubuntu", sans-serif;
+}
+.visuals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: relative;
+}
+.visuals img {
+    width:90%;
+    position: relative;
+    z-index: 10;
+}
+
+.visuals video{
+    position: absolute;
+    top:160px;
+    width: 290px;
+}
+.faqbox{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", "Roboto", "Ubuntu", sans-serif;
+}
+.faqbox h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 15px auto;
+}
+.faq{
+    width:70vw;
+    display: flex;
+    background-color: rgba(194, 194, 194, 0.247);
+    justify-content: space-between;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.plus{
+    font-size: larger;
+    cursor: pointer;
+}
+.faqbox p{
+    text-align: center;
+    padding-top: 35px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    margin-bottom: 20px;
+}
+.buttons button{
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    padding:10px 30px;
+    border:none;
+    border-radius: 5px;
+}
+.buttons input{
+    background-color: rgba(103, 99, 99,0.4);
+    color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding:10px 30px;
+}
+.footer-body{
+    display: flex;
+   flex-direction: column;
+   width:70vw;
+   margin:auto;
+   font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", "Roboto", "Ubuntu", sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   color: rgb(174, 174, 174);
+}
+.footer-body p{
+    padding: 20px 0;
+    margin-top: 40px;
+}
+.lang{
+    width:100px;
+    padding:5px 20px;
+    margin:10px 0;
+    background-color: rgba(103, 99, 99,0.4);
+    color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding:10px 30px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:10px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+.Uline{
+    text-decoration: underline;
+}
+.hidden-li{
+    visibility: hidden;
+}
+.country{
+    margin-bottom: 50px;
+}
+.faq:hover{
+    background-color: rgb(119, 117, 117);
+    transition: all 0.5s ease;
+}
